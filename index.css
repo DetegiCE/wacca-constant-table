@@ -283,7 +283,7 @@ table {
     display: inline-block;
     justify-content: end;
     font-weight: bold;
-    font-size: 5px;
+    font-size: 10px;
     background-color: rgba(0,0,0,0.5);
 }
 .s1236::after {
@@ -292,7 +292,7 @@ table {
     display: inline-block;
     justify-content: end;
     font-weight: bold;
-    font-size: 5px;
+    font-size: 10px;
     background-color: rgba(0,0,0,0.5);
 }
 .s1237::after {
@@ -301,7 +301,7 @@ table {
     display: inline-block;
     justify-content: end;
     font-weight: bold;
-    font-size: 5px;
+    font-size: 10px;
     background-color: rgba(0,0,0,0.5);
 }
 .s2043::after {
@@ -310,6 +310,6 @@ table {
     display: inline-block;
     justify-content: end;
     font-weight: bold;
-    font-size: 5px;
+    font-size: 10px;
     background-color: rgba(0,0,0,0.5);
 }
