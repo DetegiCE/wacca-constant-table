@@ -50,11 +50,26 @@ body {
     padding: 0;
     margin: 0;
     color: dodgerblue;
+    text-decoration: none;
     font-weight: bold;
     display: flex;
     justify-content: end;
     align-items: end;
     font-size: 15px;
+}
+
+.authora:link {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.authora:visited {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.authora:hover {
+    text-decoration: underline;
 }
 
 #date {
@@ -77,7 +92,7 @@ body {
     background-image: url('./img/logo/main.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -140,33 +155,40 @@ table {
     color: white;
     font-weight: bold;
     font-size: 40px;
-    margin: 10px auto;
-    display: flex;
-    justify-content: center;
+    margin: 5px auto;
+    text-align: center;
     background-color: black;
+    border-bottom: 1px solid white;
 }
 
 .inactive {
     color: gray;
 }
 
-.songlist {
-    width: 100%;
-    height: 60px;
-    margin: 10px 0;
-}
-
 .songn {
     width: 50px;
     height: 50px;
-    margin: 0 10px;
+    margin-right: 5px;
     background-position: center;
     background-size: cover;
     float: right;
 }
 
+.songo {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+
+.exp {
+    border: 4px solid rgb(207, 0, 91);
+}
+
 .inf {
-    border: 5px solid rgb(65, 0, 68);
+    border: 4px solid rgb(65, 0, 68);
 }
 
 .inf::after {
@@ -178,5 +200,116 @@ table {
     background-color: rgb(65, 0, 68);
 }
 
+
+
 .s3062 { background-image: url('./img/album/3062.png'); }
+.s3061 { background-image: url('./img/album/3061.png'); }
+.s3060 { background-image: url('./img/album/3060.png'); }
 .s3047 { background-image: url('./img/album/3047.png'); }
+.s3037 { background-image: url('./img/album/3037.png'); }
+.s3030 { background-image: url('./img/album/3030.png'); }
+.s3023 { background-image: url('./img/album/3023.png'); }
+.s3016 { background-image: url('./img/album/3016.png'); }
+.s3003 { background-image: url('./img/album/3003.png'); }
+.s2254 { background-image: url('./img/album/2254.png'); }
+.s2253 { background-image: url('./img/album/2253.png'); }
+.s2252 { background-image: url('./img/album/2252.png'); }
+.s2251 { background-image: url('./img/album/2251.png'); }
+.s2246 { background-image: url('./img/album/2246.png'); }
+.s2245 { background-image: url('./img/album/2245.png'); }
+.s2244 { background-image: url('./img/album/2244.png'); }
+.s2243 { background-image: url('./img/album/2243.png'); }
+.s2240 { background-image: url('./img/album/2240.png'); }
+.s2228 { background-image: url('./img/album/2228.png'); }
+.s2227 { background-image: url('./img/album/2227.png'); }
+.s2204 { background-image: url('./img/album/2204.png'); }
+.s2203 { background-image: url('./img/album/2203.png'); }
+.s2202 { background-image: url('./img/album/2202.png'); }
+.s2067 { background-image: url('./img/album/2067.png'); }
+.s2066 { background-image: url('./img/album/2066.png'); }
+.s2058 { background-image: url('./img/album/2058.png'); }
+.s2043 { background-image: url('./img/album/2043.png'); }
+.s2031 { background-image: url('./img/album/2031.png'); }
+.s2030 { background-image: url('./img/album/2030.png'); }
+.s2029 { background-image: url('./img/album/2029.png'); }
+.s2028 { background-image: url('./img/album/2028.png'); }
+.s2027 { background-image: url('./img/album/2027.png'); }
+.s2024 { background-image: url('./img/album/2024.png'); }
+.s2023 { background-image: url('./img/album/2023.png'); }
+.s2021 { background-image: url('./img/album/2021.png'); }
+.s2017 { background-image: url('./img/album/2017.png'); }
+.s2003 { background-image: url('./img/album/2003.png'); }
+.s2002 { background-image: url('./img/album/2002.png'); }
+.s2001 { background-image: url('./img/album/2001.png'); }
+.s1273 { background-image: url('./img/album/1273.png'); }
+.s1270 { background-image: url('./img/album/1270.png'); }
+.s1269 { background-image: url('./img/album/1269.png'); }
+.s1264 { background-image: url('./img/album/1264.png'); }
+.s1238 { background-image: url('./img/album/1238.png'); }
+.s1237 { background-image: url('./img/album/1237.png'); }
+.s1236 { background-image: url('./img/album/1236.png'); }
+.s1219 { background-image: url('./img/album/1219.png'); }
+.s1218 { background-image: url('./img/album/1218.png'); }
+.s1206 { background-image: url('./img/album/1206.png'); }
+.s1205 { background-image: url('./img/album/1205.png'); }
+.s1204 { background-image: url('./img/album/1204.png'); }
+.s1203 { background-image: url('./img/album/1203.png'); }
+.s1125 { background-image: url('./img/album/1125.png'); }
+.s1124 { background-image: url('./img/album/1124.png'); }
+.s1114 { background-image: url('./img/album/1114.png'); }
+.s1113 { background-image: url('./img/album/1113.png'); }
+.s1109 { background-image: url('./img/album/1109.png'); }
+.s1098 { background-image: url('./img/album/1098.png'); }
+.s1095 { background-image: url('./img/album/1095.png'); }
+.s1092 { background-image: url('./img/album/1092.png'); }
+.s1091 { background-image: url('./img/album/1091.png'); }
+.s1090 { background-image: url('./img/album/1090.png'); }
+.s1089 { background-image: url('./img/album/1089.png'); }
+.s1088 { background-image: url('./img/album/1088.png'); }
+.s1027 { background-image: url('./img/album/1027.png'); }
+.s1021 { background-image: url('./img/album/1021.png'); }
+.s1020 { background-image: url('./img/album/1020.png'); }
+.s1018 { background-image: url('./img/album/1018.png'); }
+.s1011 { background-image: url('./img/album/1011.png'); }
+.s1010 { background-image: url('./img/album/1010.png'); }
+.s1009 { background-image: url('./img/album/1009.png'); }
+.s1008 { background-image: url('./img/album/1008.png'); }
+.s26 { background-image: url('./img/album/26.png'); }
+
+
+.s1204::after {
+    content: "お願いマッスル";
+    color: white;
+    display: inline-block;
+    justify-content: end;
+    font-weight: bold;
+    font-size: 5px;
+    background-color: rgba(0,0,0,0.5);
+}
+.s1236::after {
+    content: "ぼなぺてぃーと♡S";
+    color: white;
+    display: inline-block;
+    justify-content: end;
+    font-weight: bold;
+    font-size: 5px;
+    background-color: rgba(0,0,0,0.5);
+}
+.s1237::after {
+    content: "デタラメなマイナス";
+    color: white;
+    display: inline-block;
+    justify-content: end;
+    font-weight: bold;
+    font-size: 5px;
+    background-color: rgba(0,0,0,0.5);
+}
+.s2043::after {
+    content: "マッチョアネーム？";
+    color: white;
+    display: inline-block;
+    justify-content: end;
+    font-weight: bold;
+    font-size: 5px;
+    background-color: rgba(0,0,0,0.5);
+}
