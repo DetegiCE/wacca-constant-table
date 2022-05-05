@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     width: 100%;
@@ -87,6 +89,13 @@ body {
     opacity: 0.5;
 }
 
+table {
+    width: 100%;
+    border-spacing: 0 0;
+    margin: 0;
+    padding: 0;
+}
+
 #newsongs {
     width: 40%;
     float: left;
@@ -114,20 +123,26 @@ body {
 .newsong {
     text-align: right;
     background-color: rgb(207, 0, 91);
+    width: 40%;
 }
 
 .oldsong {
     text-align: left;
     background-color: cornflowerblue;
+    width: 40%;
+}
+
+.tlevel {
+    background-color: rgb(65, 0, 68);
 }
 
 .level {
     color: white;
-    text-align: center;
     font-weight: bold;
-    font-size: 50px;
-    height: 60px;
+    font-size: 40px;
     margin: 10px auto;
+    display: flex;
+    justify-content: center;
     background-color: black;
 }
 
@@ -157,7 +172,7 @@ body {
 .inf::after {
     content: "INF";
     color: white;
-    display: flex;
+    display: inline-block;
     justify-content: end;
     font-weight: bold;
     background-color: rgb(65, 0, 68);
