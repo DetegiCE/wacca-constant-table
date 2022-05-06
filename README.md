@@ -13,8 +13,9 @@ Constant Table for Arcade Rhythm Game WACCA
 - Add songs 
   - ~~Anime/POP~~
   - ~~VOCALOID~~
-  - TOUHOU
-  - 2.5 Dimensions
+  - ~~TOUHOU~~
+  - ~~2.5 Dimensions~~
+  - Variety
   - Original
   - HARDCORE TANOC
 - ~~Fix background issue~~
