@@ -199,6 +199,9 @@ table {
     background-color: rgb(65, 0, 68);
 }
 
+.levelborder {
+    border-bottom: 1px solid rgba(150, 150, 150, 0.8);
+}
 
 
 .s3062 { background-image: url('./img/album/3062.png'); }
