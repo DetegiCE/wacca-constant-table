@@ -8,6 +8,25 @@
         @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
         * {font-family: "Pretendard", sans-serif;}
     </style>
+    <script>
+        var classId = ['3062'];
+        var targetID;
+        classId.forEach(elem => {
+            var target = document.querySelectorAll('.'+elem);
+            var btnPopClose = document.querySelectorAll('.btn_close');
+            for(var i=0 ; i<target.length ; i++) {
+                target[i].addEventListener('click', function() {
+                    targetID = this.getAttribute('href');
+                    document.querySelector(targetID).style.display = 'block';
+                });
+            }
+            for(var i=0 ; i<target.length ; i++) {
+                btnPopClose[i].addEventListener('click', function() {
+                    this.parentNode.parentNode.style.display = 'none';
+                });
+            }
+        })
+    </script>
 </head>
 <body>
 <div id="container">
@@ -19,6 +38,30 @@
             <p class="author"><a class="authora" href="https://twitter.com/xSUIx3">@xSUIx3</a></p>
             <p class="author"><a class="authora" href="https://twitter.com/2yama_toro">@2yama_toro</a></p>
             <p id="date">2022.04.28</p>
+        </div>
+    </div>
+    <div id="pop_info" style="display:none;">
+        <div id="pop_inner">
+            <div id="album"></div>
+            <table>
+                <tr>
+                    <th>NORMAL</th>
+                    <th id="normallevel"></th>
+                </tr>
+                <tr>
+                    <th>HARD</th>
+                    <th id="hardlevel"></th>
+                </tr>
+                <tr>
+                    <th>EXPERT</th>
+                    <th id="expertlevel"></th>
+                </tr>
+                <tr>
+                    <th>INFERNO</th>
+                    <th id="infernolevel"></th>
+                </tr>
+            </table>
+            <button type="button" class="btn_close">CLOSE</button>
         </div>
     </div>
     <div id="body">
