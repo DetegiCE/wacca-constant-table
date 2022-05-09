@@ -8,25 +8,6 @@
         @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
         * {font-family: "Pretendard", sans-serif;}
     </style>
-    <script>
-        var classId = ['3062'];
-        var targetID;
-        classId.forEach(elem => {
-            var target = document.querySelectorAll('.'+elem);
-            var btnPopClose = document.querySelectorAll('.btn_close');
-            for(var i=0 ; i<target.length ; i++) {
-                target[i].addEventListener('click', function() {
-                    targetID = this.getAttribute('href');
-                    document.querySelector(targetID).style.display = 'block';
-                });
-            }
-            for(var i=0 ; i<target.length ; i++) {
-                btnPopClose[i].addEventListener('click', function() {
-                    this.parentNode.parentNode.style.display = 'none';
-                });
-            }
-        })
-    </script>
 </head>
 <body>
 <div id="container">
@@ -43,25 +24,26 @@
     <div id="pop_info" style="display:none;">
         <div id="pop_inner">
             <div id="album"></div>
+            <div id="popup_title">TEST</div>
             <table>
                 <tr>
                     <th>NORMAL</th>
-                    <th id="normallevel"></th>
+                    <th id="normallevel">1</th>
                 </tr>
                 <tr>
                     <th>HARD</th>
-                    <th id="hardlevel"></th>
+                    <th id="hardlevel">5</th>
                 </tr>
                 <tr>
                     <th>EXPERT</th>
-                    <th id="expertlevel"></th>
+                    <th id="expertlevel">13</th>
                 </tr>
                 <tr>
                     <th>INFERNO</th>
-                    <th id="infernolevel"></th>
+                    <th id="infernolevel">14.9</th>
                 </tr>
             </table>
-            <button type="button" class="btn_close">CLOSE</button>
+            <button type="button" class="btn_close" onclick="console.log('yay');">CLOSE</button>
         </div>
     </div>
     <div id="body">
@@ -714,5 +696,20 @@
 
     </div>
 </div>
+<script>
+    let classId = ['3062'];
+    classId.forEach(elem => {
+        let target = document.querySelectorAll('.s'+elem);
+        let targetID = document.getElementById("pop_info");
+        for(let i=0 ; i<target.length ; i++) {
+            console.log(target[i]);
+            target[i].click(function () {
+                document.querySelector(targetID).style.display = 'block';
+                console.log('clicked');
+            });
+        }
+    });
+
+</script>
 </body>
 </html>
