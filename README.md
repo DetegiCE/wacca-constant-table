@@ -15,7 +15,8 @@ Constant Table for Arcade Rhythm Game WACCA
   - ~~VOCALOID~~
   - ~~TOUHOU~~
   - ~~2.5 Dimensions~~
-  - Variety
+  - ~~Variety~~
   - Original
   - HARDCORE TANOC
+  - Japan Only Songs
 - ~~Fix background issue~~
