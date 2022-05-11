@@ -378,20 +378,31 @@ table {
 .s2003 { background-image: url('./img/album/2003.png'); }
 .s2002 { background-image: url('./img/album/2002.png'); }
 .s2001 { background-image: url('./img/album/2001.png'); }
+.s1276 { background-image: url('./img/album/1276.png'); }
+.s1275 { background-image: url('./img/album/1275.png'); }
 .s1274 { background-image: url('./img/album/1274.png'); }
 .s1273 { background-image: url('./img/album/1273.png'); }
 .s1272 { background-image: url('./img/album/1272.png'); }
 .s1270 { background-image: url('./img/album/1270.png'); }
 .s1269 { background-image: url('./img/album/1269.png'); }
+.s1268 { background-image: url('./img/album/1268.png'); }
+.s1267 { background-image: url('./img/album/1267.png'); }
 .s1265 { background-image: url('./img/album/1265.png'); }
 .s1264 { background-image: url('./img/album/1264.png'); }
 .s1263 { background-image: url('./img/album/1263.png'); }
 .s1262 { background-image: url('./img/album/1262.png'); }
 .s1261 { background-image: url('./img/album/1261.png'); }
 .s1260 { background-image: url('./img/album/1260.png'); }
+.s1259 { background-image: url('./img/album/1259.png'); }
+.s1258 { background-image: url('./img/album/1258.png'); }
 .s1256 { background-image: url('./img/album/1256.png'); }
 .s1255 { background-image: url('./img/album/1255.png'); }
 .s1254 { background-image: url('./img/album/1254.png'); }
+.s1251 { background-image: url('./img/album/1251.png'); }
+.s1250 { background-image: url('./img/album/1250.png'); }
+.s1249 { background-image: url('./img/album/1249.png'); }
+.s1248 { background-image: url('./img/album/1248.png'); }
+.s1247 { background-image: url('./img/album/1247.png'); }
 .s1246 { background-image: url('./img/album/1246.png'); }
 .s1245 { background-image: url('./img/album/1245.png'); }
 .s1244 { background-image: url('./img/album/1244.png'); }
@@ -417,6 +428,8 @@ table {
 .s1218 { background-image: url('./img/album/1218.png'); }
 .s1216 { background-image: url('./img/album/1216.png'); }
 .s1215 { background-image: url('./img/album/1215.png'); }
+.s1214 { background-image: url('./img/album/1214.png'); }
+.s1213 { background-image: url('./img/album/1213.png'); }
 .s1212 { background-image: url('./img/album/1212.png'); }
 .s1211 { background-image: url('./img/album/1211.png'); }
 .s1210 { background-image: url('./img/album/1210.png'); }
@@ -427,10 +440,12 @@ table {
 .s1205 { background-image: url('./img/album/1205.png'); }
 .s1204 { background-image: url('./img/album/1204.png'); }
 .s1203 { background-image: url('./img/album/1203.png'); }
+.s1128 { background-image: url('./img/album/1128.png'); }
 .s1127 { background-image: url('./img/album/1127.png'); }
 .s1126 { background-image: url('./img/album/1126.png'); }
 .s1125 { background-image: url('./img/album/1125.png'); }
 .s1124 { background-image: url('./img/album/1124.png'); }
+.s1123 { background-image: url('./img/album/1123.png'); }
 .s1122 { background-image: url('./img/album/1122.png'); }
 .s1121 { background-image: url('./img/album/1121.png'); }
 .s1119 { background-image: url('./img/album/1119.png'); }
@@ -457,7 +472,15 @@ table {
 .s1089 { background-image: url('./img/album/1089.png'); }
 .s1088 { background-image: url('./img/album/1088.png'); }
 .s1087 { background-image: url('./img/album/1087.png'); }
+.s1086 { background-image: url('./img/album/1086.png'); }
 .s1085 { background-image: url('./img/album/1085.png'); }
+.s1084 { background-image: url('./img/album/1084.png'); }
+.s1083 { background-image: url('./img/album/1083.png'); }
+.s1078 { background-image: url('./img/album/1078.png'); }
+.s1078 { background-image: url('./img/album/1078.png'); }
+.s1064 { background-image: url('./img/album/1064.png'); }
+.s1063 { background-image: url('./img/album/1063.png'); }
+.s1061 { background-image: url('./img/album/1061.png'); }
 .s1051 { background-image: url('./img/album/1051.png'); }
 .s1050 { background-image: url('./img/album/1050.png'); }
 .s1047 { background-image: url('./img/album/1047.png'); }
@@ -491,7 +514,24 @@ table {
 .s27 { background-image: url('./img/album/27.png'); }
 .s26 { background-image: url('./img/album/26.png'); }
 
-
+.s1084::after {
+    content: "Galaxy Friends";
+    color: white;
+    display: inline-block;
+    justify-content: end;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+.s1128::after {
+    content: "BLVST BEVT";
+    color: white;
+    display: inline-block;
+    justify-content: end;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
 .s1204::after {
     content: "お願いマッスル";
     color: white;
