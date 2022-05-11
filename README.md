@@ -17,6 +17,6 @@ Constant Table for Arcade Rhythm Game WACCA
   - ~~2.5 Dimensions~~
   - ~~Variety~~
   - ~~Original~~
-  - HARDCORE TANOC
+  - ~~HARDCORE TANOC~~
   - Japan Only Songs
 - ~~Fix background issue~~

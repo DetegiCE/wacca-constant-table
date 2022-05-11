@@ -459,7 +459,9 @@ table {
 .s1109 { background-image: url('./img/album/1109.png'); }
 .s1108 { background-image: url('./img/album/1108.png'); }
 .s1107 { background-image: url('./img/album/1107.png'); }
+.s1105 { background-image: url('./img/album/1105.png'); }
 .s1104 { background-image: url('./img/album/1104.png'); }
+.s1101 { background-image: url('./img/album/1101.png'); }
 .s1100 { background-image: url('./img/album/1100.png'); }
 .s1099 { background-image: url('./img/album/1099.png'); }
 .s1098 { background-image: url('./img/album/1098.png'); }
@@ -476,11 +478,31 @@ table {
 .s1085 { background-image: url('./img/album/1085.png'); }
 .s1084 { background-image: url('./img/album/1084.png'); }
 .s1083 { background-image: url('./img/album/1083.png'); }
+.s1082 { background-image: url('./img/album/1082.png'); }
+.s1081 { background-image: url('./img/album/1081.png'); }
+.s1080 { background-image: url('./img/album/1080.png'); }
+.s1079 { background-image: url('./img/album/1079.png'); }
 .s1078 { background-image: url('./img/album/1078.png'); }
-.s1078 { background-image: url('./img/album/1078.png'); }
+.s1077 { background-image: url('./img/album/1077.png'); }
+.s1076 { background-image: url('./img/album/1076.png'); }
+.s1073 { background-image: url('./img/album/1073.png'); }
+.s1072 { background-image: url('./img/album/1072.png'); }
+.s1071 { background-image: url('./img/album/1071.png'); }
+.s1070 { background-image: url('./img/album/1070.png'); }
+.s1069 { background-image: url('./img/album/1069.png'); }
+.s1068 { background-image: url('./img/album/1068.png'); }
+.s1065 { background-image: url('./img/album/1065.png'); }
 .s1064 { background-image: url('./img/album/1064.png'); }
 .s1063 { background-image: url('./img/album/1063.png'); }
+.s1062 { background-image: url('./img/album/1062.png'); }
 .s1061 { background-image: url('./img/album/1061.png'); }
+.s1060 { background-image: url('./img/album/1060.png'); }
+.s1059 { background-image: url('./img/album/1059.png'); }
+.s1058 { background-image: url('./img/album/1058.png'); }
+.s1057 { background-image: url('./img/album/1057.png'); }
+.s1056 { background-image: url('./img/album/1056.png'); }
+.s1055 { background-image: url('./img/album/1055.png'); }
+.s1054 { background-image: url('./img/album/1054.png'); }
 .s1051 { background-image: url('./img/album/1051.png'); }
 .s1050 { background-image: url('./img/album/1050.png'); }
 .s1047 { background-image: url('./img/album/1047.png'); }
@@ -513,7 +535,24 @@ table {
 .s30 { background-image: url('./img/album/30.png'); }
 .s27 { background-image: url('./img/album/27.png'); }
 .s26 { background-image: url('./img/album/26.png'); }
+.s25 { background-image: url('./img/album/25.png'); }
+.s24 { background-image: url('./img/album/24.png'); }
+.s21 { background-image: url('./img/album/21.png'); }
+.s20 { background-image: url('./img/album/20.png'); }
+.s6 { background-image: url('./img/album/6.png'); }
+.s5 { background-image: url('./img/album/5.png'); }
+.s4 { background-image: url('./img/album/4.png'); }
+.s3 { background-image: url('./img/album/3.png'); }
 
+.s1077::after {
+    content: "HiGHER";
+    color: white;
+    display: inline-block;
+    justify-content: end;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
 .s1084::after {
     content: "Galaxy Friends";
     color: white;
